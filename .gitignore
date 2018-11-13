@@ -1,0 +1,59 @@
+/bin/
+# Java
+*.class
+*.war
+*.ear
+#*.jar
+WebRoot/WEB-INF/classes
+WebRoot/WEB-INF/work/
+WebRoot/report/
+WebRoot/WEB-INF/artifacts/
+WebRoot/site/mobile/articlefiles/
+WebRoot/site/mip/articlefiles/
+WebRoot/vip/
+*.jsp__*
+# Eclipse
+.project
+.classpath
+.settings
+.bak
+
+# Idea
+.idea
+*.iml
+*.iws
+*.ipr
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Gradle
+.gradle
+!gradle-wrapper.jar
+
+# Maven
+target
+
+# Build
+out
+build
+bin
+
+# Other
+*.log
+*.swp
+*.bak
+/WebRoot/upload/
+/WebRoot/articlefiles/
+/WebRoot/site/baojia_bjzz/
+/WebRoot/site/baojia_zhizun/
+/WebRoot/site/baojia_jd/
+/WebRoot/site/baojia/
+/WebRoot/site/baojia_pd/
+/WebRoot/site/baojia_npd/
+/WebRoot/site/baojia_zz/
+/WebRoot/site/baojia_hotel/
+/WebRoot/site/baojia_index/
+/WebRoot/site/baojia_nindex/
+/WebRoot/site/mobile/articlefiles/
