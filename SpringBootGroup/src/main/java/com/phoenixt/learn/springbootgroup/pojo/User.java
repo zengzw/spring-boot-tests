@@ -2,22 +2,24 @@ package com.phoenixt.learn.springbootgroup.pojo;
 
 import io.swagger.annotations.ApiModelProperty;
 
+import java.io.Serializable;
+
 /**
  * @author zengzw
  * @date 2018/11/8 14:48
  */
-public class User {
+public class User  implements Serializable {
 
     @ApiModelProperty("用户Id")
-    private int id;
+    private Integer id;
 
     @ApiModelProperty("用户名")
     private String userName;
 
     @ApiModelProperty("年龄")
-    private int age;
+    private Integer age;
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
@@ -25,11 +27,11 @@ public class User {
         this.age = age;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

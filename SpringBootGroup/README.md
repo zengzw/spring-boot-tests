@@ -1,11 +1,11 @@
-#springboot cache
+# 一，springboot cache
  - 引入ehcache 包
  ```xml
     <dependency>
         <groupId>net.sf.ehcache</groupId>
         <artifactId>ehcache</artifactId>
     </dependency>
- ```
+ ```````
  - resources 目录下面添加‘ehcache.xml'。或者可以在application.properties 中指定文件
   ```xml
   <ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -23,3 +23,4 @@
   ```xml
     spring.cache.ehcache.config=classpath:config/cache-config.xml
   ```
+  
